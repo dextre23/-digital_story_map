@@ -1,0 +1,1008 @@
+/* Kitap Atlasi — refined dark theme */
+
+QMainWindow {
+    background-color: #0e1218;
+}
+
+QDialog {
+    background-color: #11161e;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+QWidget#centralWidget {
+    background-color: #0e1218;
+}
+
+QSplitter::handle {
+    background-color: #1a2230;
+    width: 2px;
+}
+
+QSplitter::handle:hover {
+    background-color: #2f5ea8;
+}
+
+QLineEdit {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 14px;
+    background-color: #151b26;
+    color: #e8ebf2;
+    font-size: 13px;
+    selection-background-color: #2f5ea8;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4e89ff;
+    background-color: #1a2130;
+}
+
+QTextEdit {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 8px 12px;
+    background-color: #151b26;
+    color: #e8ebf2;
+    selection-background-color: #2f5ea8;
+}
+
+QPlainTextEdit {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 8px 12px;
+    background-color: #151b26;
+    color: #e8ebf2;
+    selection-background-color: #2f5ea8;
+}
+
+QPushButton {
+    background-color: #2f5ea8;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #f0f3f8;
+}
+
+QPushButton:hover {
+    background-color: #3d6ec4;
+}
+
+QPushButton:pressed {
+    background-color: #264a82;
+}
+
+QPushButton:disabled {
+    background-color: #1e2a3a;
+    color: #5a6575;
+}
+
+QComboBox {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #e8ebf2;
+}
+
+QComboBox:focus {
+    border: 1px solid #4e89ff;
+}
+
+QComboBox::drop-down {
+    border: none;
+    padding-right: 8px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    selection-background-color: #2f4468;
+    color: #e8ebf2;
+    outline: none;
+}
+
+QListWidget {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #151b26;
+    color: #e8ebf2;
+    outline: none;
+}
+
+QListWidget:focus {
+    border: 1px solid #4e89ff;
+}
+
+QListWidget::item {
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 1px 2px;
+}
+
+QListWidget::item:alternate {
+    background-color: #121824;
+}
+
+QListWidget::item:selected {
+    background-color: #2f4468;
+    color: #f0f3f8;
+}
+
+QListWidget::item:hover {
+    background-color: #1c2638;
+}
+
+QTableWidget {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    background-color: #151b26;
+    color: #e8ebf2;
+    gridline-color: rgba(255, 255, 255, 0.04);
+}
+
+QTableWidget::item {
+    padding: 8px 12px;
+}
+
+QTableWidget::item:selected {
+    background-color: #2f4468;
+}
+
+QHeaderView::section {
+    background-color: #0e1218;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px 12px;
+    font-weight: 600;
+    color: #b0baca;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 8px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #2b3548;
+    border-radius: 4px;
+    min-height: 28px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3a4a62;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 8px;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    background: #2b3548;
+    border-radius: 4px;
+    min-width: 28px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #3a4a62;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0;
+}
+
+QToolTip {
+    background-color: #1a2230;
+    color: #e8ebf2;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+QStatusBar {
+    background-color: #0a0d12;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    color: #8b95a8;
+    font-size: 12px;
+    padding: 4px 12px;
+}
+
+QProgressBar {
+    background-color: #151b26;
+    border: none;
+    border-radius: 6px;
+    height: 8px;
+    text-align: center;
+    color: transparent;
+}
+
+QProgressBar::chunk {
+    background-color: #2f5ea8;
+    border-radius: 6px;
+}
+
+/* Sidebar */
+#sidebarRoot {
+    background-color: #0a0d12;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+#sidebarTitle {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #f0f3f8;
+}
+
+#sidebarTag {
+    font-size: 12px;
+    color: #8b95a8;
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+
+/* Sidebar buttons — gradient style */
+#sidebarPrimaryBtn, #sidebarReadBtn, #sidebarStatsBtn,
+#sidebarSearchBtn, #sidebarGhostBtn, #sidebarWhyBtn {
+    border: none;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#sidebarPrimaryBtn, #sidebarReadBtn, #sidebarStatsBtn,
+#sidebarSearchBtn, #sidebarGhostBtn, #sidebarWhyBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #af40ff, stop:0.5 #5b42f3, stop:1 #00ddeb);
+}
+
+#sidebarPrimaryBtn:hover, #sidebarReadBtn:hover, #sidebarStatsBtn:hover,
+#sidebarSearchBtn:hover, #sidebarGhostBtn:hover, #sidebarWhyBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #c066ff, stop:0.5 #6c52ff, stop:1 #00f5ff);
+}
+
+#sidebarPrimaryBtn:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #5a1b8f, stop:0.5 #2d1e82, stop:1 #007080);
+    padding: 16px 16px 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#sidebarWhyBtn:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #8a3a15, stop:0.5 #8a580a, stop:1 #8a6700);
+    padding: 16px 16px 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#sidebarReadBtn:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #08554d, stop:0.5 #0e6a30, stop:1 #08554d);
+    padding: 16px 16px 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#sidebarStatsBtn:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #8a1e20, stop:0.5 #8a3a3a, stop:1 #8a1e20);
+    padding: 16px 16px 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#sidebarSearchBtn:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #26628a, stop:0.5 #00808a, stop:1 #26628a);
+    padding: 16px 16px 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#sidebarGhostBtn:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #2a3a6a, stop:0.5 #3a1a5a, stop:1 #2a3a6a);
+    padding: 16px 16px 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#sidebarWhyBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ff6b35, stop:0.5 #f7931e, stop:1 #ffc107);
+}
+
+#sidebarWhyBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ff7a48, stop:0.5 #ffa033, stop:1 #ffd433);
+}
+
+#sidebarReadBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #11998e, stop:0.5 #1bc85e, stop:1 #11998e);
+}
+
+#sidebarReadBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #14b3a5, stop:0.5 #22e06e, stop:1 #14b3a5);
+}
+
+#sidebarStatsBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #fc4445, stop:0.5 #ff6b6b, stop:1 #fc4445);
+}
+
+#sidebarStatsBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ff5555, stop:0.5 #ff8080, stop:1 #ff5555);
+}
+
+#sidebarSearchBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #4facfe, stop:0.5 #00f2fe, stop:1 #4facfe);
+}
+
+#sidebarSearchBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #5fb8ff, stop:0.5 #33f5ff, stop:1 #5fb8ff);
+}
+
+#sidebarGhostBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #667eea, stop:0.5 #764ba2, stop:1 #667eea);
+}
+
+#sidebarGhostBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #7b92ff, stop:0.5 #8c5fbf, stop:1 #7b92ff);
+}
+
+#sidebarGameBtn {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #8e44ad, stop:0.5 #9b59b6, stop:1 #8e44ad);
+    border: none;
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #f0f3f8;
+    text-align: left;
+}
+
+#localeBar {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 10px 12px;
+}
+
+#localeLabel {
+    color: #8b95a8;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 28px;
+}
+
+#langCombo {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #b8c4d9;
+    min-height: 20px;
+}
+
+#langCombo:focus {
+    border: 1px solid #4e89ff;
+}
+
+#langCombo::drop-down {
+    border: none;
+    padding-right: 8px;
+    width: 20px;
+}
+
+#langCombo QAbstractItemView {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 4px;
+    selection-background-color: #2f4468;
+    color: #e8ebf2;
+    outline: none;
+}
+
+#langCombo QAbstractItemView::item {
+    padding: 8px 12px;
+    border-radius: 6px;
+    min-height: 24px;
+}
+
+#sidebarFooter {
+    color: #5c6577;
+    font-size: 11px;
+}
+
+#instagramLabel {
+    color: #8b95a8;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 4px 0 2px 0;
+}
+
+#instagramBtn {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #c5ccda;
+    text-align: left;
+    min-height: 20px;
+}
+
+#instagramBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #f09433, stop:0.25 #e6683c, stop:0.5 #dc2743,
+        stop:0.75 #cc2366, stop:1 #bc1888);
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#instagramBtn:pressed {
+    padding: 9px 12px 7px 12px;
+}
+
+/* Floating map search — glassmorphism */
+#mapSearchGlass {
+    background-color: rgba(18, 24, 34, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+}
+
+#mapSearchInput {
+    background-color: rgba(10, 14, 20, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 14px;
+    selection-background-color: #2f5ea8;
+}
+
+#mapSearchHint {
+    color: #7d8899;
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+#mapSearchSuggestList {
+    background-color: rgba(12, 16, 24, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 4px;
+    outline: none;
+}
+
+#mapSearchSuggestList::item {
+    padding: 10px 12px;
+    border-radius: 6px;
+}
+
+#mapSearchSuggestList::item:selected {
+    background-color: #2f4468;
+}
+
+/* Book List Dialog */
+#bookListTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f0f3f8;
+    padding: 4px 0;
+}
+
+#bookListSearch {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+}
+
+/* About Dialog */
+#aboutHead {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#aboutSub {
+    font-size: 12px;
+    color: #8b95a8;
+}
+
+#aboutBody {
+    font-size: 13px;
+    color: #c5ccda;
+    line-height: 1.5;
+}
+
+#aboutTechSpecTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #f0f3f8;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#aboutTechSpec {
+    font-size: 12px;
+    color: #b0baca;
+    line-height: 1.5;
+}
+
+/* Online Reader */
+#readerTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#readerHint {
+    font-size: 12px;
+    color: #8b95a8;
+}
+
+#readerSearchInput {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #e8ebf2;
+}
+
+#readerSearchBtn {
+    background-color: #2f5ea8;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 22px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #f0f3f8;
+}
+
+#readerSearchBtn:hover {
+    background-color: #3d6ec4;
+}
+
+#readerResultsList {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#readerResultsList::item {
+    padding: 12px 14px;
+    border-radius: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+#readerResultsList::item:selected {
+    background-color: #2f4468;
+}
+
+#readerScroll {
+    background-color: transparent;
+    border: none;
+}
+
+#readerCover {
+    background-color: #0e1218;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#readerDetailTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#readerDetailAuthor {
+    font-size: 13px;
+    color: #8b95a8;
+}
+
+#readerDetailMeta {
+    font-size: 11px;
+    color: #6b7688;
+    padding: 6px 0;
+}
+
+#readerDetailDesc {
+    font-size: 12px;
+    color: #c5ccda;
+    line-height: 1.5;
+    padding: 8px 0;
+}
+
+#readerReadBtn {
+    background-color: #2a6b3c;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 22px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#readerReadBtn:hover {
+    background-color: #34854b;
+}
+
+/* Admin Dialog */
+#adminDialogTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f3f8;
+    padding: 8px 0;
+}
+
+#adminDialogStatus {
+    font-size: 12px;
+    color: #e55;
+    padding: 4px 0;
+}
+
+/* Statistics Dialog */
+#statsChart {
+    background-color: transparent;
+    border: none;
+}
+
+/* QChart theming via widget */
+QChartView {
+    background-color: transparent;
+    border: none;
+}
+
+/* Statistics tabs */
+#statsTabs::pane {
+    background-color: #11161e;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    padding: 8px;
+    top: -1px;
+}
+
+#statsTabs::tab-bar {
+    alignment: center;
+}
+
+#statsTabs QTabBar::tab {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 22px;
+    margin-right: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #8b95a8;
+}
+
+#statsTabs QTabBar::tab:selected {
+    background-color: #1a2230;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid #1a2230;
+    color: #f0f3f8;
+}
+
+#statsTabs QTabBar::tab:hover:!selected {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #c5ccda;
+}
+
+/* Sidebar Search */
+#sidebarSearchInput {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #e8ebf2;
+}
+
+#sidebarSearchInput:focus {
+    border: 1px solid #4e89ff;
+    background-color: #1a2130;
+}
+
+#sidebarSearchList {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 4px;
+    outline: none;
+}
+
+#sidebarSearchList::item {
+    padding: 10px 12px;
+    border-radius: 6px;
+}
+
+#sidebarSearchList::item:selected {
+    background-color: #2f4468;
+}
+
+#sidebarSearchList::item:hover {
+    background-color: #1c2638;
+}
+
+/* Harita dönüş butonları — pill style */
+#bookReaderMapBtn, #whyReadMapBtn {
+    background-color: #0e1218;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    min-width: 100px;
+}
+
+#bookReaderMapBtn:hover, #whyReadMapBtn:hover {
+    background-color: #1a2230;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#bookReaderMapBtn:pressed, #whyReadMapBtn:pressed {
+    background-color: #05080c;
+    padding: 12px 22px 8px 22px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Book Reader Widget */
+#bookReaderRoot {
+    background-color: #0e1218;
+}
+
+#bookReaderTop {
+    background-color: #0a0d12;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+#bookReaderHead {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#bookWrapper {
+    background-color: transparent;
+    padding: 20px 8px;
+}
+
+#bookTurnBtn {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 6px;
+    font-size: 16px;
+    color: #b0baca;
+    min-width: 32px;
+    max-width: 32px;
+}
+
+#bookTurnBtn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #f0f3f8;
+}
+
+#bookTurnBtn:disabled {
+    color: #3a4255;
+    border-color: rgba(255, 255, 255, 0.04);
+    background-color: transparent;
+}
+
+#bookContainer {
+    background-color: #151b26;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0;
+}
+
+#bookStack {
+    background-color: transparent;
+}
+
+#bookLeftPage {
+    background-color: #1c2435;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px 0 0 4px;
+    padding: 0;
+}
+
+#bookRightPage {
+    background-color: #1a2232;
+    border-left: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 0 4px 4px 0;
+    padding: 0;
+}
+
+#bookSpine {
+    background-color: #0e1218;
+    min-width: 12px;
+    max-width: 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.06);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#bookPageCover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1a2640, stop:1 #121a2e);
+    border-radius: 4px;
+}
+
+#bookCoverEmoji {
+    font-size: 72px;
+    color: #f0d080;
+}
+
+#bookCoverTitle {
+    font-size: 34px;
+    font-weight: 700;
+    color: #f0f3f8;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+}
+
+#bookCoverSubtitle {
+    font-size: 18px;
+    color: #8b95a8;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+#bookPageTitle {
+    font-weight: 700;
+    color: #e8ebf2;
+    line-height: 1.3;
+    padding: 0;
+    letter-spacing: 0.01em;
+}
+
+#bookPageBody {
+    color: #b0baca;
+    line-height: 1.5;
+    padding: 0;
+}
+
+#bookPageEmpty {
+    background-color: transparent;
+}
+
+#bookPageCounter {
+    font-size: 12px;
+    color: #5c6577;
+    padding: 8px 0 12px 0;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* Sidebar Toggle Button */
+#sidebarToggleBtn {
+    background-color: #1a2230;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    padding: 0;
+    font-size: 16px;
+    color: #8b95a8;
+    min-width: 28px;
+    max-width: 28px;
+    min-height: 48px;
+    max-height: 48px;
+}
+
+#sidebarToggleBtn:hover {
+    background-color: #2b3548;
+    color: #c5ccda;
+}
+
+#sidebarToggleBtn:pressed {
+    background-color: #0d1118;
+    color: #5c6577;
+    padding: 1px 0 0 0;
+}
+
+#sidebarToggleBtnClosed {
+    background-color: #1a2230;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    padding: 0;
+    font-size: 16px;
+    color: #4e89ff;
+    min-width: 28px;
+    max-width: 28px;
+    min-height: 48px;
+    max-height: 48px;
+}
+
+#sidebarToggleBtnClosed:hover {
+    background-color: #2b3548;
+    color: #7bb0ff;
+}
+
+#sidebarToggleBtnClosed:pressed {
+    background-color: #0d1118;
+    color: #2a5a9a;
+    padding: 1px 0 0 0;
+}
+
+/* Why Read Widget */
+#whyReadRoot {
+    background-color: #0e1218;
+}
+
+#whyReadTop {
+    background-color: #0a0d12;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+#whyReadHead {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0f3f8;
+}
+
+#whyReadScroll {
+    background-color: transparent;
+    border: none;
+}
+
+#whyReadContainer {
+    background-color: transparent;
+}
+
+#whyReadCard {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+}
+
+#whyReadCardTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e8ebf2;
+    line-height: 1.4;
+}
+
+#whyReadCardBody {
+    font-size: 13px;
+    color: #b0baca;
+    line-height: 1.6;
+}
